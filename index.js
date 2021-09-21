@@ -20,9 +20,9 @@ const pr = new Promise((resolve, reject) => {
 
 pr.then(
   (res) => {
-    console.log(res);
+    console.log(res); // bar
   },
   (err) => {
-    console.log(err);
+    console.log(err); // error (no o/p)
   },
 );
